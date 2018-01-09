@@ -1,0 +1,34 @@
+{
+  "name": "8gua",
+  "version": "0.0.4",
+  "author": "8gua <i@8gua.com>",
+  "description": "blog for github page / bitbucket page / gitee page",
+  "homepage": "https://8gua.blog",
+  "keywords": "blog, 8gua",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/8gua-blog/8gua-cli"
+  },
+  "license": "MPL-2.0",
+  "scripts": {},
+  "bin": {
+    "8gua": "lib/8gua"
+  },
+  "dependencies": {
+    "coffeescript": "2",
+    "dns-then": "^0.1.0",
+    "fs-extra": "^5.0.0",
+    "lodash": "^4.17.4",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "require-from-string": "^2.0.1",
+    "toml": "^2.3.3",
+    "tomlify-j0.4": "^3.0.0"
+  },
+  "files": [
+    "lib/",
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ]
+}
