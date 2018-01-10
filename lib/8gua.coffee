@@ -15,7 +15,10 @@ require('./init_path')(
     path.resolve(__dirname, "../node_modules")
 )
 
+CWD = process.cwd()
+
 module.exports = ->
+    process.chdir(CWD)
     CONFIG = toml_config.read CONFIG_DEFAULT
     cli_path = path.join(CONFIG.ROOT, 'cli')
     gua_path = path.join(cli_path, '8gua/boot/8gua.coffee')
